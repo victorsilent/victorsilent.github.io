@@ -7,7 +7,7 @@ import hashtagsDay18File from '../../dados/itemC/18.csv'
 import hashtagsDay19File from '../../dados/itemC/19.csv' 
 import hashtagsDay20File from '../../dados/itemC/20.csv' 
 
-export default class ItemB extends Component {
+export default class ItemC extends Component {
 
     constructor(props) {
         super(props);
