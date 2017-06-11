@@ -14,11 +14,11 @@ export default props => (
     <Router history={newHistory}>
         <div>
             <Route exact path="/" component={Home}/>
-            <Route path="/a" component={ItemA}/>
-            <Route path="/b" component={ItemB}/>
-            <Route path="/c" component={ItemC}/>
-            <Route path="/d" component={ItemD}/>
-            <Route path="/e" component={ItemE}/>
+            <Route path="/1a" component={ItemA}/>
+            <Route path="/1b" component={ItemB}/>
+            <Route path="/1c" component={ItemC}/>
+            <Route path="/1d" component={ItemD}/>
+            <Route path="/1e" component={ItemE}/>
         </div>
     </Router>
 )
