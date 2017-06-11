@@ -39,10 +39,12 @@ export default class ItemC extends Component {
                     <div className='column col-6'>
                         <h3>Análise de tweets por Hora</h3>
                         <h5><strong>Como Foi Feito</strong></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium iste, odit iure. Quo quod aperiam vel, velit eos sapiente odit quos quaerat saepe, labore reprehenderit eius sequi qui! At, nisi.</p>
-                        <br />
-                        <h5><strong>Informações Extras</strong></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium iste, odit iure. Quo quod aperiam vel, velit eos sapiente odit quos quaerat saepe, labore reprehenderit eius sequi qui! At, nisi.</p>
+                        <article>
+                            <p>
+                                Similar ao item A e B, aqui nós fizemos a alteração de agrupa os tweets por hora do dia e dar um count.
+                            </p>
+                            <br />
+                        </article>
                     </div>
                     <div className='column col-6'>
                         <table className="table table-striped table-hover">

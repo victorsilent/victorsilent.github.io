@@ -10,10 +10,11 @@ export default class ItemD extends Component {
                     <div className='column col-6'>
                         <h3>Quais as principais sentenças relacionadas à palavra “Dilma”?</h3>
                         <h5><strong>Como Foi Feito</strong></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium iste, odit iure. Quo quod aperiam vel, velit eos sapiente odit quos quaerat saepe, labore reprehenderit eius sequi qui! At, nisi.</p>
-                        <br />
-                        <h5><strong>Informações Extras</strong></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium iste, odit iure. Quo quod aperiam vel, velit eos sapiente odit quos quaerat saepe, labore reprehenderit eius sequi qui! At, nisi.</p>
+                        <article>
+                            <p>
+                                Alteramos o filtro utilizado no item A, agora o filtro ficou como "Dilma" ou "Aécio", após isso (e o processo do item A, split, e etc) realizamos um reduce para contar quais palavras mais foram expostas relacioando os termos buscados                            </p>
+                            <br />
+                        </article>
                     </div>
                     <div className='column col-6'>
                         <table className="table table-striped table-hover">

@@ -39,10 +39,13 @@ export default class ItemB extends Component {
                     <div className='column col-6'>
                         <h3>Análise de tweets por Dia</h3>
                         <h5><strong>Como Foi Feito</strong></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium iste, odit iure. Quo quod aperiam vel, velit eos sapiente odit quos quaerat saepe, labore reprehenderit eius sequi qui! At, nisi.</p>
-                        <br />
-                        <h5><strong>Informações Extras</strong></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium iste, odit iure. Quo quod aperiam vel, velit eos sapiente odit quos quaerat saepe, labore reprehenderit eius sequi qui! At, nisi.</p>
+                        <article>
+                            <p>
+                                Utilizamos um groupBy para saber os dias dos tweets
+                                Similar ao item A, a unica mudança realizada foi que antes de dar o parse nós mudamos o intervalo do between para ser entre os dias.
+                            </p>
+                            <br />
+                        </article>
                     </div>
                     <div className='column col-6'>
                         <table className="table table-striped table-hover">
