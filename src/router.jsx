@@ -12,7 +12,9 @@ import ItemE from './components/twitter/itemE'
 
 import Questao2ItemA from './components/torre_eiffel/Questao2ItemA'
 import Questao2ItemB from './components/torre_eiffel/Questao2ItemB'
+import Questao2ItemC from './components/torre_eiffel/Questao2ItemC'
 import Questao2ItemD from './components/torre_eiffel/Questao2ItemD'
+import Questao2ItemE from './components/torre_eiffel/Questao2ItemE'
 
 const newHistory = HashHistory();
 
@@ -27,7 +29,9 @@ export default props => (
             <Route path="/1e" component={ItemE}/>
             <Route path="/2a" component={Questao2ItemA}/>
             <Route path="/2b" component={Questao2ItemB}/>
+            <Route path="/2c" component={Questao2ItemC}/>
             <Route path="/2d" component={Questao2ItemD}/>
+            <Route path="/2e" component={Questao2ItemE}/>
         </div>
     </Router>
 )

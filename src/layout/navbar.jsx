@@ -17,7 +17,9 @@ export default class Navbar extends Component{
                             <a href='#/1e' className="btn btn-link">Q1 - E</a> |
                             <a href='#/2a' className="btn btn-link">Q2 - A</a>
                             <a href='#/2b' className="btn btn-link">Q2 - B</a>
+                            <a href='#/2c' className="btn btn-link">Q2 - C</a>
                             <a href='#/2d' className="btn btn-link">Q2 - D</a>
+                            <a href='#/2e' className="btn btn-link">Q2 - E</a>
                         </section>
                     </header>
                 </div>

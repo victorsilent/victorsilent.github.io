@@ -24,9 +24,7 @@ export default class Home extends Component{
                         </ul>
                     </div>
                 </div>
-                
             </div>
-            
         )
     }
 }
